@@ -38,6 +38,9 @@ In this project, we use a relational database to create the initial data structu
 - **[Create animals table]**
 - **[Insert data inside animals table]**
 - **[Write queries for the data inside animals table]**
+- **[update animals table]**
+- **[Use transaction]**
+- **[Use aggregation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +70,6 @@ In this project, we use a relational database to create the initial data structu
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Project 2: query and update animals table.
 - Project 3: query multiple tables.
 - Project 4: add "join table" for visits.
 - Project 5: database performance audit.
