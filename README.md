@@ -1,10 +1,13 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+- [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -33,14 +36,13 @@ In this project, we use a relational database to create the initial data structu
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Create animals table]**
 - **[Insert data inside animals table]**
 - **[Write queries for the data inside animals table]**
 - **[update animals table]**
 - **[Use transaction]**
 - **[Use aggregation]**
+- **[Query multiple tables]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,11 +54,36 @@ In this project, we use a relational database to create the initial data structu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+This repository includes files with plain SQL that can be used to recreate a database:
+
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- To install [PostgreSQL](https://www.postgresql.org/)
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/rica213/vet_clinic.git
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -70,7 +97,6 @@ In this project, we use a relational database to create the initial data structu
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Project 3: query multiple tables.
 - Project 4: add "join table" for visits.
 - Project 5: database performance audit.
 - Exercise: add database schema diagram.*
