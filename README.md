@@ -33,14 +33,13 @@ In this project, we use a relational database to create the initial data structu
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Create animals table]**
 - **[Insert data inside animals table]**
 - **[Write queries for the data inside animals table]**
 - **[update animals table]**
 - **[Use transaction]**
 - **[Use aggregation]**
+- **[Query multiple tables]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,8 +55,6 @@ In this project, we use a relational database to create the initial data structu
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@rica213](https://github.com/rica213)
@@ -70,7 +67,6 @@ In this project, we use a relational database to create the initial data structu
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Project 3: query multiple tables.
 - Project 4: add "join table" for visits.
 - Project 5: database performance audit.
 - Exercise: add database schema diagram.*
