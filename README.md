@@ -43,6 +43,7 @@ In this project, we use a relational database to create the initial data structu
 - **[Use transaction]**
 - **[Use aggregation]**
 - **[Query multiple tables]**
+- **[Add "join table" for visits]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +98,6 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Project 4: add "join table" for visits.
 - Project 5: database performance audit.
 - Exercise: add database schema diagram.*
 
