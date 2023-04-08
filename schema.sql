@@ -47,3 +47,31 @@ ALTER  TABLE animals ADD COLUMN owner_id int,
 
 /* Commit transaction */
 COMMIT;
+
+
+/* PROJECT 3 */
+
+/* Create table vets */
+CREATE TABLE vets (
+ id SERIAL PRIMARY KEY,
+ name varchar(100) NOT NULL,
+ age int NOT NULL,
+ date_of_graduation date NOT NULL);
+
+/* Create join table specializations */
+CREATE TABLE specializations (
+ vet_id int REFERENCES vets(id),
+ specie_id int REFERENCES species(id),
+ PRIMARY KEY(vet_id,specie_id)
+);
+
+/* Alter table animals, set id as primary key */
+ALTER TABLE animals ADD PRIMARY KEY (id);
+
+/* Create join table  visits */
+CREATE TABLE visits (
+ id SERIAL PRIMARY KEY,
+ animals_id INTEGER REFERENCES animals(id),
+ vets_id INTEGER REFERENCES vets(id),
+ date_of_visit date
+);
