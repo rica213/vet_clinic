@@ -17,7 +17,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [VET CLINIC] <a name="about-project"></a>
+# 📖 VET CLINIC <a name="about-project"></a>
 
 In this project, we use a relational database to create the initial data structure for a vet clinic. We create a table to store animals' information, insert some data into it, and query it.
 
