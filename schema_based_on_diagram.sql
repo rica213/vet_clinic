@@ -13,7 +13,7 @@ CREATE TABLE medical_histories (
     admitted_at TIMESTAMP,
     patient_id INT,
     status VARCHAR(255),
-    FOREIGN KEY patient_id REFERENCES patients(id)
+    FOREIGN KEY (patient_id) REFERENCES patients(id)
 )
 
 CREATE TABLE invoices (
@@ -22,7 +22,7 @@ CREATE TABLE invoices (
     generated_at TIMESTAMP,
     payed_at TIMESTAMP,
     medical_history_id INT,
-    FOREIGN KEY medical_history_id REFERENCES medical_histories(id)
+    FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id)
 );
 
 CREATE TABLE treatments (
@@ -39,15 +39,15 @@ CREATE TABLE invoice_items (
     total_price FLOAT,
     invoice_id INT,
     treatment_id INT,
-    FOREIGN KEY invoice_id REFERENCES invoices(id),
-    FOREIGN KEY treatment_id REFERENCES treatments(id)
+    FOREIGN KEY (invoice_id) REFERENCES invoices(id),
+    FOREIGN KEY (treatment_id) REFERENCES treatments(id)
 )
 
 CREATE TABLE medical_histories_treatments (
     id INT PRIMARY KEY,
     medical_histories_id INT,
     treatments_id INT,
-    FOREIGN KEY medical_histories_id REFERENCES medical_histories(id),
-    FOREIGN KEY treatments_id REFERENCES treatments(id),
+    FOREIGN KEY (medical_histories_id) REFERENCES medical_histories(id),
+    FOREIGN KEY (treatments_id) REFERENCES treatments(id),
 )
 
