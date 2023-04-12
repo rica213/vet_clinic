@@ -1,19 +1,19 @@
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-- [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 VET CLINIC ](#-vet-clinic-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -44,16 +44,18 @@ In this project, we use a relational database to create the initial data structu
 - **[Use aggregation]**
 - **[Query multiple tables]**
 - **[Add "join table" for visits]**
+- **[Database performance audit]**
+- **[Add database schema diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
+<!-- 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](<replace-with-your-deployment-URL>)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -86,11 +88,18 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Author 1**
 
 - GitHub: [@rica213](https://github.com/rica213)
 - Twitter: [@alc3and](https://twitter.com/alc3and)
 - LinkedIn: [Larissa Clarielle](https://linkedin.com/in/larissa-clarielle)
+
+
+👤 **Author 2**
+
+- GitHub: [@coderacheal](https://github.com/coderacheal)
+- Twitter: [@racheal_kubi](https://twitter.com/racheal_kubi)
+- LinkedIn: [Racheal Appiah-kubi](https://linkedin.com/in/racheal-appiah-kubi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,8 +107,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Project 5: database performance audit.
-- Exercise: add database schema diagram.*
+- Improve query performance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
