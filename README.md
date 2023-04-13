@@ -18,8 +18,9 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 VET CLINIC <a name="about-project"></a>
-
 In this project, we use a relational database to create the initial data structure for a vet clinic. We create a table to store animals' information, insert some data into it, and query it.
+
+![drawSQL-vet-clinic-diagram-export-2023-04-13](https://user-images.githubusercontent.com/10439283/231698952-de9548d0-7263-45a2-a85b-13c4fa2403ef.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
