@@ -2,22 +2,22 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 VET CLINIC ](#-vet-clinic-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [🛠 Built With ](#-built-with-)
+  - [Tech Stack ](#tech-stack-)
+  - [Key Features ](#key-features-)
+- [💻 Getting Started ](#-getting-started-)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [👥 Authors ](#-authors-)
+- [🔭 Future Features ](#-future-features-)
+- [🤝 Contributing ](#-contributing-)
+- [⭐️ Show your support ](#️-show-your-support-)
+- [🙏 Acknowledgments ](#-acknowledgments-)
+- [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 VET CLINIC <a name="about-project"></a>
+## 📖 VET CLINIC <a name="about-project"></a>
 In this project, we use a relational database to create the initial data structure for a vet clinic. We create a table to store animals' information, insert some data into it, and query it.
 
 ![drawSQL-vet-clinic-diagram-export-2023-04-13](https://user-images.githubusercontent.com/10439283/231698952-de9548d0-7263-45a2-a85b-13c4fa2403ef.png)
@@ -50,14 +50,6 @@ In this project, we use a relational database to create the initial data structu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-<!-- 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](<replace-with-your-deployment-URL>)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -89,14 +81,14 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author 1**
+👤 **Larissa Clarielle**
 
 - GitHub: [@rica213](https://github.com/rica213)
 - Twitter: [@alc3and](https://twitter.com/alc3and)
 - LinkedIn: [Larissa Clarielle](https://linkedin.com/in/larissa-clarielle)
 
 
-👤 **Author 2**
+👤 **Racheal Appiah-Kubi**
 
 - GitHub: [@coderacheal](https://github.com/coderacheal)
 - Twitter: [@racheal_kubi](https://twitter.com/racheal_kubi)
